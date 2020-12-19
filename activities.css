@@ -1,0 +1,94 @@
+/*ACTIVITIES*/
+.activitypage{
+    width: 100%;
+    height: 100%;
+    display: none;
+    text-align: center;
+    animation: animateact 0.80s;
+    background-image: url(./ppik/allbg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@keyframes animateact{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.act{
+    display: flex;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 200px 80px 50px 320px;
+}
+.boxa{
+    margin: 10px 15px;
+}
+.fil1, .fil2, .fill3a{
+    background-color: #E5E5E5;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 3px 2px 7px #353535c5;
+    width: 240px;
+    height: 100px;
+}
+/*HOVERING FOLDER A*/
+.fil1{
+    background-image: url(./ppik/prototype.png);
+}
+.fil2{
+    background-image: url(./ppik/conceptual.png);
+}
+.fill3a{
+    background-image: url(./ppik/outA.png);
+}
+
+/*HOVER*/
+.openLinks{
+    background-color: #3f3d5679;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+.openLinks a{
+    text-decoration: none;
+    color: #DCDCDC;
+}
+.openLinks > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+.openLinks:hover > *{
+    transform: translateY(0);
+}
+.openLinks:hover{
+    opacity: 1;
+}
+.openLinks button{
+    padding: 10px;
+    width: 30%;
+    font-size: 10px;
+    margin-top: 38px;
+    cursor: pointer;
+    border-radius: 5px; 
+    border: none;
+    outline: none;
+    background-color: #3D4547;
+    letter-spacing: 4px;
+}
+
+
+.activitypage img{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

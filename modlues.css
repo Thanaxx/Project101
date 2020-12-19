@@ -1,0 +1,117 @@
+.modulespage{
+    width: 100%;
+    display: none;
+    text-align: center;
+    animation: animateacts 0.80s;
+    background-image: url(./ppik/allbg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+@keyframes animateacts{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.folderContainer{
+    display: flex;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 80px 80px 50px 200px;
+}
+.box{
+    margin: 10px 15px;
+}
+
+
+.fil3, .fil4, .fil5, .fil6, .fil7, .fil8, .fil9, .fil10, .fil11, .fil12{
+    background-color: #E5E5E5;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 3px 2px 7px #353535c5;
+    width: 220px;
+    height: 100px;
+}
+
+
+/*HOVERING FOLDER A*/
+
+.fil3{
+
+    background-image: url(./ppik/m1.png);
+}
+.fil4{
+    background-image: url(./ppik/m2.png);
+}
+.fil5{
+    background-image: url(./ppik/m3.png);
+}
+.fil6{
+    background-image: url(./ppik/m4.png);
+}
+.fil7{
+    background-image: url(./ppik/m5.png);
+}
+.fil8{
+    background-image: url(./ppik/m6.png);
+}
+.fil9{
+    background-image: url(./ppik/m7.png);
+}
+.fil10{
+    background-image: url(./ppik/m8.png);
+}
+.fil11{
+    background-image: url(./ppik/m9a.png);
+}
+.fil12{
+    background-image: url(./ppik/m10.png);
+}
+
+
+
+/*HOVER*/
+
+
+.openLink{
+    background-color: #3f3d5679;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+.openLink a{
+    text-decoration: none;
+    color: #DCDCDC;
+}
+.openLink > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+.openLink:hover > *{
+    transform: translateY(0);
+}
+.openLink:hover{
+    opacity: 1;
+}
+.openLink button{
+    padding: 10px;
+    width: 30%;
+    font-size: 10px;
+    margin-top: 37px;
+    cursor: pointer;
+    border-radius: 5px; 
+    border: none;
+    outline: none;
+    background-color: #3D4547;
+    letter-spacing: 4px;
+}

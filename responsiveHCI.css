@@ -1,0 +1,75 @@
+@media (max-width: 600px){
+    .coverpage{
+        flex-direction: column;
+    }
+    .title{
+        margin-top: 80px;
+    }
+    .title h1{
+        font-size: 55px;
+    }
+    .logo img{
+        width: 100%;
+        padding: 17px 50px 90px 50px;
+    }
+    .title button{
+        width: 55%;
+        padding: 8px 0;
+        font-size: 16px;
+    }
+    .more{
+        width: 90%;
+        padding: 10px 20px;
+    }
+    .more h1{
+        font-size: 30px;
+        margin-bottom: 3px;
+    }
+    .more p{
+        font-size: 14px;
+        padding: 5px 0;
+    }
+    .btnmore button{
+        text-align: center;
+        font-size: 14px;
+        width: 30%;
+    }
+
+    /*ABOUT ME*/
+    .aboutpage{
+        min-height: 100vh;
+    }
+    .medLogo{
+        padding: 10px 0 30px 0;
+    }
+    .meLogo img{
+        width: 40%;
+    }
+    .about p{
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    /*ACTIVITIES*/
+    .act{
+        padding: 90px;
+        flex-direction: column;
+    }
+    .boxa{
+        margin: 5px;
+    }
+    .fil1, .fil2, .fill3a{
+        width: 100%;
+        height: 100px;
+        margin-bottom: 20px;
+    }
+    /*MODULES*/
+    .folderContainer{
+        padding: 70px 0px 40px 70px;
+        flex-direction: column;
+    }
+    .fil3, .fil4, .fil5, .fil6, .fil7, .fil8, .fil9, .fil10, .fil11, .fil12{
+        width: 80%;
+        height: 100px;
+    }
+}
